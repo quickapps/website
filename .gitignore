@@ -5,9 +5,9 @@
 /composer.lock
 /phpunit.xml
 /vendor
-#/tmp
+/tmp
 /Config/database.json
-quickapps_init.php
+
 
 # OS generated files
 .DS_Store
