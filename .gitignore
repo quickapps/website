@@ -4,10 +4,6 @@
 /tags
 /composer.lock
 /phpunit.xml
-/vendor
-/tmp
-/Config/database.json
-
 
 # OS generated files
 .DS_Store
@@ -18,3 +14,11 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# Site specifict
+/Config/database.json
+/Locale
+/Plugin
+/tmp
+/vendor
+/webroot
