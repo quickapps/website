@@ -1,0 +1,11 @@
+{
+	"name": "quickapps/web",
+	"description": "QuickAppsCMS website app skeleton",
+	"homepage": "http://quickappscms.org",
+	"type": "project",
+	"license": "GPL-3.0",
+	"require": {
+		"cakephp/cakephp": "3.0.*-dev",
+		"php": ">=5.4"
+	}
+}
