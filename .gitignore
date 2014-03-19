@@ -4,6 +4,8 @@
 /tags
 /composer.lock
 /phpunit.xml
+.tags
+.tags_sorted_by_file
 
 # OS generated files
 .DS_Store
@@ -16,7 +18,7 @@ ehthumbs.db
 Thumbs.db
 
 # Site specifict
-/Config/database.json
+/Config/settings.json
 /Locale
 /Plugin
 /tmp

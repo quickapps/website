@@ -30,12 +30,12 @@ if (php_sapi_name() === 'cli-server') {
 }
 
 /**
- * The full path to the directory which holds "App", WITHOUT a trailing DS.
+ * Full path to your website directory, WITHOUT a trailing DS.
  */
 define('SITE_ROOT', dirname(__DIR__));
 
 /**
- * Path Composer's vendor directory.
+ * Path to composer's vendor directory.
  * There is where quickapps & cakephp must be located.
  */
 define('VENDOR_INCLUDE_PATH', SITE_ROOT . '/vendor');
