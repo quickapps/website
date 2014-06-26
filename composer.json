@@ -7,6 +7,5 @@
 	"minimum-stability": "dev",
 	"require": {
 		"quickapps/cms": "2.0.*-dev",
-		"php": ">=5.4"
 	}
 }

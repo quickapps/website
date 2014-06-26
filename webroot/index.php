@@ -40,20 +40,20 @@ define('SITE_ROOT', dirname(__DIR__));
  */
 define('VENDOR_INCLUDE_PATH', SITE_ROOT . '/vendor');
 
-
 /**
  * Path to the QuickApps directory.
  */
 define('QUICKAPPS_CORE_INCLUDE_PATH', VENDOR_INCLUDE_PATH . '/quickapps/cms/src');
 
 require QUICKAPPS_CORE_INCLUDE_PATH . '/Config/bootstrap.php';
-use Cake\Core\Configure;
+
 use Cake\Network\Request;
 use Cake\Network\Response;
-use Cake\Routing\Dispatcher;
+use Cake\Routing\DispatcherFactory;
 
-$Dispatcher = new Dispatcher();
-$Dispatcher->dispatch(
+$dispatcher = DispatcherFactory::create();
+$dispatcher->dispatch(
 	Request::createFromGlobals(),
 	new Response()
 );
+
