@@ -6,6 +6,6 @@
 	"license": "GPL-3.0",
 	"minimum-stability": "dev",
 	"require": {
-		"quickapps/cms": "2.0.*-dev",
+		"quickapps/cms": "2.0.*-dev"
 	}
 }
