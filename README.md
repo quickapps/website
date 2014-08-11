@@ -9,7 +9,9 @@ A skeleton for creating websites with [QuickApps CMS](http://quickappscms.org) 2
 1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
 2. Run `php composer.phar create-project -s dev quickapps/website [your_website_name]`.
 
-If Composer is installed globally, run `composer create-project -s dev quickapps/website [website_name]`
+If Composer is installed globally, run:
+
+    composer create-project -s dev quickapps/website [website_name]
 
 After composer is done visit `http://example.com/` and start QuickApps CMS installation.
 
