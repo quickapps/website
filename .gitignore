@@ -18,9 +18,9 @@ ehthumbs.db
 Thumbs.db
 
 # Site specifict
-/Config/settings.json
-/Locale
+/Config/settings*
 /Plugin
+/Console
 /tmp
 /vendor
 /webroot
