@@ -24,22 +24,26 @@ if (php_sapi_name() === 'cli-server') {
 }
 
 /**
- * Full path to your website directory, WITHOUT a trailing DIRECTORY_SEPARATOR. In other words, the directory 
- * which holds your site's "webroot" directory.
+ * Full path to your website directory, WITHOUT a trailing DIRECTORY_SEPARATOR.
+ * In other words, the directory which holds your site's "webroot" directory.
  *
  * You should never change this.
  */
 define('SITE_ROOT', dirname(__DIR__));
 
 /**
- * Path to the "src" directory where QuickApps CMS core resides, WITH a trailing DIRECTORY_SEPARATOR.
+ * Path to the "src" directory where QuickApps CMS core resides, WITH a trailing
+ * DIRECTORY_SEPARATOR.
  *
  * You can change this when your QuickApps CMS core is in a different location.
  * Useful on a shared core installation. 
  */
-define('QUICKAPPS_PATH', SITE_ROOT . '/vendor/quickapps/cms/src/');
+define('QUICKAPPS_CORE', SITE_ROOT . '/vendor/quickapps/cms/');
 
-require QUICKAPPS_PATH . 'Config/bootstrap.php';
+/**
+ * You should not change anything below this lines.
+ */
+require QUICKAPPS_CORE . 'config/bootstrap.php';
 
 use Cake\Network\Request;
 use Cake\Network\Response;
