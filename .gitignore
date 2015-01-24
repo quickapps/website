@@ -17,7 +17,8 @@ ehthumbs.db
 Thumbs.db
 
 # Site specifict
-/config
+/config/settings.php
+/logs
 /plugins
 /tmp
 /vendor
