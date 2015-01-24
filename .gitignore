@@ -4,8 +4,7 @@
 /tags
 /composer.lock
 /phpunit.xml
-.tags
-.tags_sorted_by_file
+.tags*
 
 # OS generated files
 .DS_Store
@@ -20,7 +19,6 @@ Thumbs.db
 # Site specifict
 /config
 /plugins
-/Console
 /tmp
 /vendor
 /webroot
