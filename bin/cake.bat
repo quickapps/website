@@ -23,7 +23,7 @@
 SET app=%0
 SET lib=%~dp0
 
-php "%lib%qs.php" %*
+php "%lib%cake.php" %*
 
 echo.
 
