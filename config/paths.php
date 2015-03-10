@@ -13,7 +13,10 @@
 /**
  * These defines should only be edited if you have QuickApps CMS installed in
  * a directory layout other than the way it is distributed.
- * When using custom settings be sure to use the DS and do not add a trailing DS.
+ *
+ * You can overwrite QuickAppsCMS's constants by redefining them in this file. This
+ * is for advanced users only, those with a proper understanding of PHP and its
+ * syntax.
  */
 
 /**
@@ -25,7 +28,7 @@
 define('SITE_ROOT', dirname(__DIR__));
 
 /**
- * Path to the "src" directory where QuickApps CMS core resides, WITH a trailing
+ * Path to the "src" directory where QuickAppsCMS core resides, WITH a trailing
  * DIRECTORY_SEPARATOR.
  *
  * You can change this when your QuickApps CMS core is in a different location.
