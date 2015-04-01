@@ -11,7 +11,7 @@
  */
 
 /**
- * These defines should only be edited if you have QuickApps CMS installed in
+ * These defines should only be edited if you have QuickAppsCMS installed in
  * a directory layout other than the way it is distributed.
  *
  * You can overwrite QuickAppsCMS's constants by redefining them in this file. This
@@ -32,6 +32,6 @@ define('SITE_ROOT', dirname(__DIR__));
  * DIRECTORY_SEPARATOR.
  *
  * You can change this when your QuickApps CMS core is in a different location.
- * Useful on a shared core installation. 
+ * Useful on a shared core installation.
  */
 define('QUICKAPPS_CORE', SITE_ROOT . '/vendor/quickapps/cms/');
