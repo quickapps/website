@@ -1,5 +1,4 @@
-Global Templates
-################
+# Global Templates
 
 You can overwrite any view template by placing it in this directory. This directory
 must mimics themes "Template" directory.
