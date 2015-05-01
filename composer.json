@@ -7,5 +7,10 @@
 	"minimum-stability": "dev",
 	"require": {
 		"quickapps/cms": "2.0.*-dev"
-	}
+	},
+    "autoload-dev": {
+        "psr-4": {
+            "QuickApps\\Test\\": "./vendor/quickapps/cms/tests"
+        }
+    }
 }
