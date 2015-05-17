@@ -28,10 +28,10 @@
 define('SITE_ROOT', dirname(__DIR__));
 
 /**
- * Path to the "src" directory where QuickAppsCMS core resides, WITH a trailing
+ * Path to QuickAppsCMS core plugin which holds the "src" directory. WITH a trailing
  * DIRECTORY_SEPARATOR.
  *
- * You can change this when your QuickApps CMS core is in a different location.
+ * You can change this when your QuickAppsCMS core plugin is in a different location.
  * Useful on a shared core installation.
  */
-define('QUICKAPPS_CORE', SITE_ROOT . '/vendor/quickapps/cms/');
+define('QUICKAPPS_CORE', SITE_ROOT . '/vendor/quickapps/cms/plugins/CMS/');
