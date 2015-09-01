@@ -5,6 +5,7 @@
 	"type": "project",
 	"license": "GPL-3.0",
 	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"require": {
 		"quickapps/cms": "2.0.*-dev"
 	},
