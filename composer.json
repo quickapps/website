@@ -8,8 +8,12 @@
     "prefer-stable": true,
     "require": {
         "composer/installers": "~1.0",
+        "cakephp/cakephp": "~3.0",
         "cakephp/plugin-installer": "*",
         "quickapps-plugins/installer": "*"
+    },
+    "require-dev": {
+        "quickapps/cms": "*"
     },
     "suggest": {
         "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
