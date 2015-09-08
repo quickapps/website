@@ -1,17 +1,23 @@
 {
-	"name": "quickapps/website",
-	"description": "QuickAppsCMS website app skeleton",
-	"homepage": "http://quickappscms.org",
-	"type": "project",
-	"license": "GPL-3.0",
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"require": {
-		"quickapps-plugins/installer": "*"
-	},
-    "autoload-dev": {
-        "psr-4": {
-            "QuickApps\\Test\\": "./vendor/quickapps/cms/tests"
-        }
+    "name": "quickapps/website",
+    "description": "QuickAppsCMS website app skeleton",
+    "homepage": "http://quickappscms.org",
+    "type": "project",
+    "license": "GPL-3.0",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "composer/installers": "~1.0",
+        "cakephp/plugin-installer": "*",
+        "quickapps-plugins/installer": "*"
+    },
+    "suggest": {
+        "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
+        "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP.",
+        "cakephp/debug_kit": "Provides a debugging toolbar and enhanced debugging tools for CakePHP applications.",
+        "cakephp/bake": "Pprovides the code generation functionality for CakePHP. Through a suite of CLI tools, you can quickly and easily generate code for your application."
+    },
+    "scripts": {
+        "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
     }
 }
