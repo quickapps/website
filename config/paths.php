@@ -26,4 +26,4 @@
  * You can change this when your QuickAppsCMS core plugin is in a different location.
  * Useful on a shared core installation.
  */
-define('QUICKAPPS_CORE', dirname(__DIR__) . '/vendor/quickapps/cms/plugins/CMS/');
+define('QUICKAPPS_CORE', dirname(__DIR__) . '/vendor/quickapps-plugins/cms/');
