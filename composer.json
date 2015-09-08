@@ -7,7 +7,7 @@
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"require": {
-		"quickapps/cms": "2.0.*-dev"
+		"quickapps-plugins/installer": "*"
 	},
     "autoload-dev": {
         "psr-4": {
