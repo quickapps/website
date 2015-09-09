@@ -20,18 +20,10 @@
  */
 
 /**
- * Full path to your website directory, WITHOUT a trailing DIRECTORY_SEPARATOR.
- * In other words, the directory which holds your site's "webroot" directory.
- *
- * You should never change this.
- */
-define('SITE_ROOT', dirname(__DIR__));
-
-/**
  * Path to QuickAppsCMS core plugin which holds the "src" directory. WITH a trailing
  * DIRECTORY_SEPARATOR.
  *
  * You can change this when your QuickAppsCMS core plugin is in a different location.
  * Useful on a shared core installation.
  */
-define('QUICKAPPS_CORE', SITE_ROOT . '/vendor/quickapps/cms/plugins/CMS/');
+define('QUICKAPPS_CORE', dirname(__DIR__) . '/vendor/quickapps-plugins/cms/');
