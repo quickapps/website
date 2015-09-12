@@ -7,13 +7,14 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "composer/installers": "~1.0",
+        "php": ">=5.4.19",
         "cakephp/cakephp": "~3.0",
+        "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/plugin-installer": "*",
         "quickapps-plugins/installer": "*"
     },
     "require-dev": {
-        "quickapps/cms": "*"
+        "quickapps/cms": "2.0.x-dev"
     },
     "suggest": {
         "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
