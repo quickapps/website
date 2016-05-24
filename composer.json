@@ -13,10 +13,8 @@
         "cakephp/plugin-installer": "*",
         "quickapps-plugins/installer": "*"
     },
-    "require-dev": {
-        "quickapps/cms": "2.0.x-dev"
-    },
     "suggest": {
+        "quickapps/cms": "Development and testing repository, used to perform CI tests",
         "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
         "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP.",
         "cakephp/debug_kit": "Provides a debugging toolbar and enhanced debugging tools for CakePHP applications.",
